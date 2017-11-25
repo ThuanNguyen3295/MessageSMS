@@ -1,7 +1,9 @@
 # MessageSMS
 
 Resources: 
-[Nexmo](https://www.nexmo.com/)\n
+
+[Nexmo](https://www.nexmo.com/)
+
 [GitHub](https://github.com/Nexmo/nexmo-node)
 
 ## Installation
@@ -26,6 +28,7 @@ var nexmo = new Nexmo({
 
 
 ## Send text message
+
 ```js
 nexmo.message.sendSms(
     'URVIRTUALNUMBER', number, text, { type: 'unicode' },
