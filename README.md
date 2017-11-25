@@ -25,3 +25,17 @@ var nexmo = new Nexmo({
 * `apiSecret` - API SECRET from Nexmo
 
 ```js
+
+## Send text message
+nexmo.message.sendSms(
+    'URVIRTUALNUMBER', number, text, { type: 'unicode' },
+    (err, responseData) => {
+      if(err) {
+        console.log(err);
+      } else {
+            //Do domething with the response
+        }
+      }
+    }
+  );
+});
